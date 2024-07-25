@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    body{
+      background-color: #f4d04e;
+      font-family: "Figtree";
+      font-weight: 500, 800;
+      font-size: 16px;
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      
+    }
+    .container2{
+      flex: 1;
+      padding: 20px;
+      border: 1px solid black;
+      border-radius: 20px;
+      max-width: 350px;
+      background-color: white;
+      box-shadow: 10px 10px;
+      
+      
+    }
+    .picture{
+      padding-left: 5px;
+      padding-top: 10px;
+      border-radius: 20px;
+    }
+   .learning{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4d04e;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+   }
+   #p3{
+    color: hsl(0, 0%, 42%)
+   }
+   .hooper{
+    display: flex;
+    align-items: center;
+   }
+   .Greg{
+    height: 30px;
+   }
+   .name{
+    margin-left: 10px;
+   }
+    
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto+Slab:wght@100..900&family=Sevillana&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <div class="container2">
+    <img class="picture" src="./assets/images/illustration-article.svg" alt="illustration-article">
+   
+
+   <div class="learning">
+    <h3>Learning</h3>
+   </div>
+    <div class="p1">
+    <p>
+      Published 21 Dec 2023
+    </p>
+    </div>
+
+    <div class="foundations">
+      <h2>HTML & CSS foundations</h2>
+    </div>
+
+    <div class="p2">
+      <p id="p3">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    </div>
+    <div class="hooper">
+      <img class="Greg" src="./assets/images/image-avatar.webp" alt="Greg">
+      <h3 class="name">Greg Hooper</h3>
+    </div>
+    </div>
+</div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Gian Sarinas</a>.
+  </div>
+</body>
+</html>
